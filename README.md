@@ -1,12 +1,12 @@
-### JS Test
+# JS Test
 
 For any question of this document, we aren't waiting for a number or answer, but we are waiting for javascript functions.
 
 Make a git public repo or add @loiu92 to your private repos.
 
-#### Assuming we have an array of factories
+## Assuming we have an array of factories
 
-```
+```javascript
 const factories = [
   { name: "BR1", employees: ["John", "Alice", "Bob", "Jessie", "Karen"] },
   { name: "BR2", employees: ["Jessie", "Karen", "John"] },
@@ -15,14 +15,14 @@ const factories = [
 ]; //
 ```
 
-1. Count Employees Number by Factory // => [ {name: 'BR1', count: 4}, ... ]
-2. Count Factories Number by Employee // => [ {employee: 'John', count: 2}, ... ]
-3. Order employees list by alphabetical order // =>   { name: "BR2", employees: ["Jessie", "John", "Karen"] }
+1. Count Employees Number by Factory `// => [ {name: 'BR1', count: 4}, ... ]`
+2. Count Factories Number by Employee `// => [ {employee: 'John', count: 2}, ... ]`
+3. Order employees list by alphabetical order `// =>   { name: "BR2", employees: ["Jessie", "John", "Karen"] }`
 
 
-#### Assuming we have a different array
+## Assuming we have a different array
 
-```
+```javascript
 const employeeType = [
       {id: 1, "name": "FullTime", work_begin: "09:00:00", work_end: "17:00:00"},
       {id; 2, "name": "MidTime", work_begin: "12:00:00", work_end: "21:00:00"},
@@ -58,6 +58,6 @@ const tasks = [
 
 ```
 
-4. Count total hours worked in 1 day ? // => 39
-5. Make a function that take as parameters dayTime and return number of employee working // howManyEmployeeByTime(time) => int
-6. How many days of work needed to done all tasks ? // => 1 day = 9:00 to 00:00 between 00:00 and 09:00 doesnt count.
+4. Count total hours worked in 1 day ? `// => 39`
+5. Make a function that take as parameters dayTime and return number of employee working `// howManyEmployeeByTime(time) => int`
+6. How many days of work needed to done all tasks ? `// => 1 day = 9:00 to 00:00 between 00:00 and 09:00 doesnt count.`

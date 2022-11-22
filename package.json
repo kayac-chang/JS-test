@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "sideEffects": false,
+  "prettier": {},
+  "eslintIgnore": [
+    "/node_modules",
+    "/build",
+    "/public/build"
+  ],
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "@remix-run/eslint-config": "^1.7.6",
+    "@types/eslint": "^8.4.10",
+    "eslint": "^8.28.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.7.1",
+    "tsconfig-paths": "^4.1.0",
+    "typescript": "^4.9.3",
+    "vite": "^3.2.4",
+    "vite-tsconfig-paths": "^3.6.0",
+    "vitest": "^0.25.2"
+  }
+}
